@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  typescript: {
-    ignoreBuildErrors: false,
+  images: {
+    domains: ["avatars.githubusercontent.com", "lh3.googleusercontent.com"],
   },
 };
 
